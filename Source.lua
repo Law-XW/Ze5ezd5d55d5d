@@ -327,8 +327,6 @@ local function Scroller(Props, Themes)
 	Props.ScrollingDirection = Enum.ScrollingDirection.X
 	Props.ScrollBarThickness = 0
 	Props.ElasticBehavior = Enum.ElasticBehavior.Never
-	Props.VerticalScrollBarInclusion = Enum.ScrollBarInclusion.Never
-	Props.HorizontalScrollBarInclusion = Enum.ScrollBarInclusion.Never
 	return New("ScrollingFrame", Props, Themes)
 end
 
